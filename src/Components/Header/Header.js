@@ -34,10 +34,10 @@ function Header() {
             <Search color="#ffffff"></Search>
           </div>
         </div>
-        <div className="language">
+        {/* <div className="language">
           <span> ENGLISH </span>
           <Arrow></Arrow>
-        </div>
+        </div> */}
         <div className="loginPage">
           <span>{user ? user.displayName:"Login"}</span>
           <hr />
